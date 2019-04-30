@@ -52,7 +52,6 @@ describe("Launch EN", () => {
         alexaResponse = await alexa.utter(trueOrFalse());
         console.debug(alexaResponse.sessionAttributes.progress);
         assert.include(alexaResponse.response.outputSpeech.ssml, "you scored");
-
         
         // check end game
         // assert question type is yesno
