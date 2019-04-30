@@ -28,7 +28,7 @@ const jaGame = ["ポップコーンクイズを開いて", "バツ", "バツ", "
 virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 	// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 	for (var i = 0; i < result.length; i++) {
-		console.info(result[i].message);
+		// console.info(result[i].message);
 		if (!skipSST) console.log(result[i].transcript);
 		if (result[i].card) console.log(result[i].card.mainTitle);
 	}
@@ -36,7 +36,7 @@ virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 	virtualDevice_ENUS.batchMessage(enGame, debugMode).then((result) => {
 		// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 		for (var i = 0; i < result.length; i++) {
-			console.info(result[i].message);
+			// console.info(result[i].message);
 			if (!skipSST) console.log(result[i].transcript);
 			if (result[i].card) console.log(result[i].card.mainTitle);
 		}
@@ -44,7 +44,7 @@ virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 		virtualDevice_ENIN.batchMessage(enGame, debugMode).then((result) => {
 			// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 			for (var i = 0; i < result.length; i++) {
-				console.info(result[i].message);
+				// console.info(result[i].message);
 				if (!skipSST) console.log(result[i].transcript);
 				if (result[i].card) console.log(result[i].card.mainTitle);
 			}
@@ -52,7 +52,7 @@ virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 			virtualDevice_ENAU.batchMessage(enGame, debugMode).then((result) => {
 				// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 				for (var i = 0; i < result.length; i++) {
-					console.info(result[i].message);
+					// console.info(result[i].message);
 					if (!skipSST) console.log(result[i].transcript);
 					if (result[i].card) console.log(result[i].card.mainTitle);
 				}
@@ -60,7 +60,7 @@ virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 				virtualDevice_ENCA.batchMessage(enGame, debugMode).then((result) => {
 					// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 					for (var i = 0; i < result.length; i++) {
-						console.info(result[i].message);
+						// console.info(result[i].message);
 						if (!skipSST) console.log(result[i].transcript);
 						if (result[i].card) console.log(result[i].card.mainTitle);
 					}
@@ -68,7 +68,7 @@ virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 					virtualDevice_DEDE.batchMessage(deGame, debugMode).then((result) => {
 						// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 						for (var i = 0; i < result.length; i++) {
-							console.info(result[i].message);
+							// console.info(result[i].message);
 							if (!skipSST) console.log(result[i].transcript);
 							if (result[i].card) console.log(result[i].card.mainTitle);
 						}
@@ -76,7 +76,7 @@ virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 						virtualDevice_FRFR.batchMessage(frGame, debugMode).then((result) => {
 							// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 							for (var i = 0; i < result.length; i++) {
-								console.info(result[i].message);
+								// console.info(result[i].message);
 								if (!skipSST) console.log(result[i].transcript);
 								if (result[i].card) console.log(result[i].card.mainTitle);
 							}
@@ -84,7 +84,7 @@ virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 							virtualDevice_FRCA.batchMessage(frGame, debugMode).then((result) => {
 								// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 								for (var i = 0; i < result.length; i++) {
-									console.info(result[i].message);
+									// console.info(result[i].message);
 									if (!skipSST) console.log(result[i].transcript);
 									if (result[i].card) console.log(result[i].card.mainTitle);
 								}
@@ -92,7 +92,7 @@ virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 								virtualDevice_ITIT.batchMessage(itGame, debugMode).then((result) => {
 									// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 									for (var i = 0; i < result.length; i++) {
-										console.info(result[i].message);
+										// console.info(result[i].message);
 										if (!skipSST) console.log(result[i].transcript);
 										if (result[i].card) console.log(result[i].card.mainTitle);
 									}
@@ -100,7 +100,7 @@ virtualDevice_ENGB.batchMessage(enGame, debugMode).then((result) => {
 									virtualDevice_JAJP.batchMessage(jaGame, debugMode).then((result) => {
 										// if (debugMode) console.debug(JSON.stringify(result, null, 2));
 										for (var i = 0; i < result.length; i++) {
-											console.info(result[i].message);
+											// console.info(result[i].message);
 											if (!skipSST) console.log(result[i].transcript);
 											if (result[i].card) console.log(result[i].card.mainTitle);
 										}
